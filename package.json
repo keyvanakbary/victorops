@@ -1,0 +1,30 @@
+{
+  "name": "victorops",
+  "version": "1.0.0",
+  "author": "Keyvan Akbary <kiwwito@gmail.com>",
+  "keywords": [
+    "victorops"
+  ],
+  "description": "VictorOps client",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keyvanakbary/victorops.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coffee-script": "1.6.3",
+    "coffee-errors": "0.8.6",
+    "mocha": "^2.1.0"
+  },
+  "engines": {
+    "node": ">= 0.8.x",
+    "npm": ">= 1.1.x"
+  },
+  "main": "lib/victorops.js",
+  "scripts": {
+    "test": "make test",
+    "prepublish": "make test && make build"
+  }
+}
