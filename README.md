@@ -1,5 +1,7 @@
 # VictorOps
 
+[![Build Status](https://secure.travis-ci.org/keyvanakbary/victorops.svg?branch=master)](http://travis-ci.org/keyvanakbary/victorops)
+
 Client for [VictorOps](https://victorops.com/).
 
 ## Installation
